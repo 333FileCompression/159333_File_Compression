@@ -2,7 +2,7 @@
 159.333 Programming Project
 Supervisor: Dr. Andre Barczak
 Author:		Yiqin Wang
-ID:			17280498
+ID:		17280498
 */
 
 #include"Scanner.h"
