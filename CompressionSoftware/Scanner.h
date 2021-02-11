@@ -2,7 +2,7 @@
 159.333 Programming Project
 Supervisor: Dr. Andre Barczak
 Author:		Yiqin Wang
-ID:			17280498
+ID:		17280498
 */
 
 #include<iostream>
@@ -87,15 +87,15 @@ public:
 		cout << "--------------------------------------------------------------------------------------------------------------------------" << endl;
 		for (Node* temp = Character; temp != nullptr; temp = temp->Next) {
 			if (temp->Code == 10 || temp->Code == 13) {
-				cout << "ก๓ " << "Newline" << "  ";
+				cout << "ยกรณ " << "Newline" << "  ";
 				printf("%.4f\t\t\t", temp->Rate);
 			}
 			else if (temp->Code == 32) {
-				cout << "ก๓ " << "Space" << "  ";
+				cout << "ยกรณ " << "Space" << "  ";
 				printf("%.4f\t\t\t", temp->Rate);
 			}
 			else {
-				cout << "ก๓ " << temp->Code << "  ";
+				cout << "ยกรณ " << temp->Code << "  ";
 				printf("%.4f\t\t\t", temp->Rate);
 			}
 
